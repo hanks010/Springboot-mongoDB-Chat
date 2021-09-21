@@ -34,6 +34,6 @@ public class ChatController {
 	public Mono<Chat> setMsg(@RequestBody Chat chat){
 		//Mono는 데이터를 한 번만 리턴한다는 의미, 리턴타입을 void로 설정해도 된다.
 		chat.setCreatedAt(LocalDateTime.now());
-		return chatRepository.save(chat);// 들어간 데이터를 확인하기 위함;
+		return chatRepository.save(chat);//Object를 리턴하면 JSON 변환(MessageConverter)
 	}
 }
