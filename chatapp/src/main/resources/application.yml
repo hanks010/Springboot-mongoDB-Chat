@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017 #몽고디비 기본포트넘버
+      database: chatdb
