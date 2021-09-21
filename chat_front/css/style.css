@@ -55,7 +55,6 @@ body {
 }
 .received_withd_msg {
   width: 57%;
-  margin-bottom: 10px;
 }
 .mesgs {
   float: left;
@@ -74,7 +73,7 @@ body {
 }
 .outgoing_msg {
   overflow: hidden;
-  margin: 26px 0 8px;
+  margin: 26px 0 26px;
 }
 .sent_msg {
   float: right;
